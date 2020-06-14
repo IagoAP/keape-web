@@ -1,5 +1,8 @@
 # Keapê - Projeto Hackathon ccr 2020
 
+<p>É a plataforma da CCR que permite interações via WhatsApp com usuario caminhoneiro.</p>
+<p>Este sistema tem interface amigável e usa uma abordagem leve e divertida.</p>
+
 ## Para iniciar o projeto use os comandos ->
 
 `npm install`\
