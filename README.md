@@ -1,4 +1,4 @@
-# Keapê - Projeto hackathon ccr 2020
+# Keapê - Projeto Hackathon ccr 2020
 
 ## Para iniciar o projeto use os comandos ->
 
