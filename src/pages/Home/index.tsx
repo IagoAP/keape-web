@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 
 import logo from '../../assets/logo-small.png'
+import truck from '../../assets/truck.png'
 
 const Home = () => {
   return (
@@ -12,21 +13,27 @@ const Home = () => {
       <div className="content">
         <header>
           <Link to="/">
-            <img src={logo} alt="Ecoleta" />
+            <img src={logo} alt="Keapê" />
           </Link>
         </header>
+        <div id="body-home" className="body-home">
+          <main>
+            <h1>Sempre conectado com os caminhoneiros</h1>
+            <p>Em tempo real</p>
+            <p>A qualquer hora</p>
+            <p>Em qualquer lugar</p>
 
-        <main>
-          <h1>Seu marketplace de coleta de residuos.</h1>
-          <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
-
-          <Link to="/create-point">
-            <span>
-              <FiLogIn />
-            </span>
-            <strong>Cadastre um ponto de coleta</strong>
-          </Link>
-        </main>
+            <a href="http://keape-ccr.whatz.me">
+              <span>
+                <FiLogIn />
+              </span>
+              <strong>QRV prossiga!</strong>
+            </a>
+          </main>
+          <div id="image-truck">
+            <img src={truck} alt="truck" />
+          </div>
+        </div>
       </div>
     </div>
   )
